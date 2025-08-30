@@ -128,12 +128,13 @@ int	main()
 	char *ss = "01, 02, [...], 09, 12, 13, [...], 78, 79, 89";
 	char *sss = "01234567, 01234568, [...], 02456789, 03456789, 12345678, [...], 13456789, 23456789";
 	char *ssss = "012345678, 012345679, 012345689, [...], 023456789, 123456789";
-	printf("\n\nft_print_combn tests\nExpected output :\n%s\nGotten output :\n", s);
+	printf("\n\nft_print_combn tests\n%s\n", s);
 	ft_print_combn(1);
-	printf("\nExpected output :\n%s\nGotten output :\n", ss);
+	printf("\n%s\n", ss);
 	ft_print_combn(2);
-	printf("\nExpected output :\n%s\nGotten output :\n", sss);
+	printf("\n%s\n", sss);
 	ft_print_combn(8);
-	printf("\nExpected output :\n%s\nGotten output :\n", ssss);
+	printf("\n%s\n", ssss);
 	ft_print_combn(9);
+	printf("\n");
 }
