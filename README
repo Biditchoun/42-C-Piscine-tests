@@ -15,7 +15,7 @@ However, the moulinette does not.
 As such, you can change the variable "null" to anything else than 'y' if you want to ignore those tests.
 
 Almost always, those tests will print the expected result on a line,
-and the gotten result with he provided function on the line below.
+and the gotten result with the provided function on the line below.
 I will include a copy/paste of what is expected in the README of each test page.
-There are other specificities that might be indicated those READMEs..
+There are other specificities that might be indicated those READMEs.
 I think that's it, happy coding and learning what I did here :D
