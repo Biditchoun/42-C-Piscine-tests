@@ -1,0 +1,5 @@
+I have added some tests for people to try out the undefined behaviours of the functions we need to copy.
+Also, since those functions are not protected against null_pointers, your code should not either.
+The tests for both those parameters are, by default, deactivated ; you will need to fiddle the code by decommenting specific lines to try it all out.
+
+(encountered problems to make strlcpy work on wsl, for now I am looking into that before going on updating everything)
