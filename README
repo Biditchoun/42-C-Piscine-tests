@@ -1,0 +1,21 @@
+Those are all the tests I created during my C piscine of july 2025.
+It made the testing in evaluations notably faster, leaving me more time to read the code.
+Most test pages can just be used by importing them in the corresponding C folder,
+and running "cc -Wall Werror Wextra CXXtests.c */*.c".
+The main issues you will encounter with those tests are twofold :
+- Firstly, if there are functions with the same name where you are testing,
+the compiler will not be happy. You will need to rename one of the identical functions and their call
+(it often happened with ft_strlen, which I then renamed ftstrlen, for example).
+- Secondly, undone exercices will need their corresponding tests to be deactivated in the tests page.
+You can do that simply by putting /* and */ from the first undone exercice to the end.
+Do not forget the ending bracket though !
+
+I do test if functions are protected against NULL pointers when necessary.
+However, the moulinette does not.
+As such, you can change the variable "null" to anything else than 'y' if you want to ignore those tests.
+
+Almost always, those tests will print the expected result on a line,
+and the gotten result with he provided function on the line below.
+I will include a copy/paste of what is expected in the README of each test page.
+There are other specificities that might be indicated those READMEs..
+I think that's it, happy coding and learning what I did here :D

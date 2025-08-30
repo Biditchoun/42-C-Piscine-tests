@@ -1,0 +1,3 @@
+Clone / copy the file in your exercices repository and run cc -Wall -Werror -Wextra C00_tests.c */*.c && ./a.out
+The output should look like this :
+
