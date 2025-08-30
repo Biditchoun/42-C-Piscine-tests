@@ -22,21 +22,25 @@ int	main()
 	int i = -1;
 	while (s[++i])
 		ft_putchar(s[i]);
+	printf("\n");
 	//ex01
 	void ft_print_alphabet(void);
 	s = "abcdefghijklmnopqrstuvwxyz";
-	printf("\n\n\nPrintf_alphabet test\n%s\n", s);
+	printf("\n\nPrintf_alphabet test\n%s\n", s);
 	ft_print_alphabet();
+	printf("\n");
 	//ex02
 	void ft_print_reverse_alphabet(void);
 	s = "zyxwvutsrqponmlkjihgfedbca";
-	printf("\n\n\nPrintf_reverse_alphabet test\n%s\n", s);
+	printf("\n\nPrintf_reverse_alphabet test\n%s\n", s);
 	ft_print_reverse_alphabet();
+	printf("\n");
 	//ex03
 	void ft_print_numbers(void);
 	s = "0123456789";
-	printf("\n\n\nft_print_numbers test\n%s\n", s);
+	printf("\n\nft_print_numbers test\n%s\n", s);
 	ft_print_numbers();
+	printf("\n");
 	//ex04
 	void ft_is_negative(int n);
 	int a = INT_MIN;
@@ -44,7 +48,7 @@ int	main()
 	int c = 0;
 	int d = 1;
 	int e = INT_MAX;
-	printf("\n\n\nft_is_negative tests\n");
+	printf("\n\nft_is_negative tests\n");
 	ft_is_negative(a);
 	printf(" N %i\n", a);
 	ft_is_negative(b);
@@ -60,11 +64,13 @@ int	main()
 	s = "012, 013, 014, 015, 016, 017, 018, 019, 023, 024, [...], 089, 123, 124, [...], 589, 678, 679, 689, 789";
 	printf("\n\nft_print_cmb test\nExpected ouput :\n%s\nGotten ouput :\n", s);
 	ft_print_comb();
+	printf("\n");
 	//ex06
 	void ft_print_comb2(void);
 	s = "00 01, 00 02, 00 03, [...], 00 09, 00 10, 00 11, [...], 00 99, 01 02, 01 03, [...], 09 99, 10 11, 10 12, [...], 96 98, 96 99, 97 98, 97 99, 98 99";
-	printf("\n\n\nft_print_comb2 test\nExpected output :\n%s\nGotten output :\n", s);
+	printf("\n\nft_print_comb2 test\nExpected output :\n%s\nGotten output :\n", s);
 	ft_print_comb2();
+	printf("\n");
 	//ex07
 	void ft_putnbr(int nb);
 	a = INT_MIN;
@@ -85,7 +91,7 @@ int	main()
 	int p = 888;
 	int q = 987654;
 	int r = 666666666;
-	printf("\n\n\nft_putnbr_tests\n");
+	printf("\n\nft_putnbr_tests\n");
 	ft_putnbr(a);
 	printf(" %i\n", a);
 	ft_putnbr(b);
